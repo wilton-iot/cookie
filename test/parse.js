@@ -1,7 +1,10 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 
 var assert = require('assert');
 
-var cookie = require('..');
+var cookie = require('cookie');
+var test = require("tape-compat");
+var suite = test.suite;
 
 suite('parse');
 
@@ -63,3 +66,5 @@ test('assign only once', function() {
     assert.deepEqual({ foo: '', bar: 'bar' },
         cookie.parse('foo=;bar=bar;foo=boo'));
 });
+
+return module.exports;});

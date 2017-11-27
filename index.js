@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 /*!
  * cookie
  * Copyright(c) 2012-2014 Roman Shtylman
@@ -193,3 +194,5 @@ function tryDecode(str, decode) {
     return str;
   }
 }
+
+return module.exports;});
