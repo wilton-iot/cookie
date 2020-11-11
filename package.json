@@ -33,7 +33,8 @@
   "wilton": {
     "excludes": [
       "test",
-      "HISTORY.md"
+      "HISTORY.md",
+      "test.js"
     ]
   }
 }
