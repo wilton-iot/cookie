@@ -39,6 +39,8 @@
   },
   "wilton": {
     "excludes": [
+      "benchmark",
+      "scripts",
       "test",
       "HISTORY.md",
       "test.js"
